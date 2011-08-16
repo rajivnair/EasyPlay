@@ -39,6 +39,7 @@ print $playlist;
 `killall -9 mplayer`;
 `mplayer$playlist`;
 
+# call back for find
 sub wanted{
 
     $song = $File::Find::name;
